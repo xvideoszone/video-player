@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exclusive Video Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button {
+            background-color: #ff4500;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+            display: block;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #d63b00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exclusive Video Content</h1>
+        <p>Watch premium videos now! Click the button below to access.</p>
+
+        <!-- Thumbnail (klik gambar menuju Adsterra Direct Link 1 setelah 2 detik) -->
+        <img src="https://i.imgur.com/sXnmXb9.jpeg" alt="Thumbnail" onclick="redirectAdsterra1()">
+
+        <!-- Tombol -->
+        <button onclick="redirectAdsterra2()">Play Video</button>
+        <button onclick="redirectVideo()">Watch Now</button>
+    </div>
+
+    <script>
+        function redirectAdsterra1() {
+            let link1 = "https://t.co/yBhFsFul4L"; // Ganti dengan Direct Link 1 Adsterra
+            setTimeout(() => {
+                window.location.href = link1;
+            }, 2000); // Redirect setelah 10 detik
+        }
+
+        function redirectAdsterra2() {
+            let link2 = "https://t.co/v2Zga2giNq"; // Ganti dengan Direct Link 2 Adsterra
+            setTimeout(() => {
+                window.location.href = link2;
+            }, 2000); // Redirect setelah 10 detik
+        }
+
+        function redirectVideo() {
+            let videoSite = "https://t.co/RLF6eQmJ2t"; // Ganti dengan link situs video
+            window.location.href = videoSite; // Langsung redirect tanpa delay
+        }
+    </script>
+
+    <!-- Histats.com START -->
+    <script type="text/javascript">
+        var _Hasync= _Hasync|| [];
+        _Hasync.push(['Histats.start', '1,4922497,4,0,0,0,00010000']);
+        _Hasync.push(['Histats.fasi', '1']);
+        _Hasync.push(['Histats.track_hits', '']);
+        (function() {
+            var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+            hs.src = '//s10.histats.com/js15_as.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+        })();
+    </script>
+    <noscript>
+        <a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4922497&101" alt="counter" border="0"></a>
+    </noscript>
+    <!-- Histats.com END -->
+
+</body>
+</html>
